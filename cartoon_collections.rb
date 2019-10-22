@@ -5,5 +5,5 @@ def roll_call_dwarves(dwarves)# code an argument here
 end	
 
 def summon_captain_planet(produce)# code an argument here
-  # Your code here	  produce.collect {|name| name.capitalize + "!"}
-end	end
+  produce.collect {|name| name.capitalize + "!"}
+end	
