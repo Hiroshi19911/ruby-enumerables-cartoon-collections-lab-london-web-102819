@@ -9,4 +9,6 @@ def summon_captain_planet(produce)
 end	
 
 def long_planteer_calls(calls)
-  
+  calls.any? {|word| word.length > 4}
+end 
+
