@@ -8,3 +8,5 @@ def summon_captain_planet(produce)
   produce.collect {|name| name.capitalize + "!"}
 end	
 
+def long_planteer_calls(calls)
+  
